@@ -9,11 +9,11 @@ namespace Exemplo1_Entity
     [Table("usuario")] // Define explicitamente o nome da tabela
     public class Usuario
     {
-        [Column("id")] // Define explicitamente o nome da tabela
+        [Column("id")] // Define explicitamente o nome da coluna
         public int Id { get; set; }
-        [Column("nome")] // Define explicitamente o nome da tabela
+        [Column("nome")] // Define explicitamente o nome da coluna
         public string Nome { get; set; } = string.Empty; // valor padrao q evita o campo ser nulo
-        [Column("email")] // Define explicitamente o nome da tabela
+        [Column("email")] // Define explicitamente o nome da coluna
         public string Email { get; set; } = string.Empty;
     }
 }

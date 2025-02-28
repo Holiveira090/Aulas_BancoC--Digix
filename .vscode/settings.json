@@ -1,3 +1,15 @@
 {
-    "dotnet.defaultSolution": "Exemplo1.sln"
+    "dotnet.defaultSolution": "Exemplo1.sln",
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Ex1Entity",
+            "database": "ExEntity",
+            "username": "postgres",
+            "password": "master"
+        }
+    ]
 }

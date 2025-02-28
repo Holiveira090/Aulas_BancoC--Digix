@@ -1,0 +1,2 @@
+Entity Framework
+O Entity Framework é um ORM (Object Relational Mapping) que permite a conexão com bancos de dados relacionais.

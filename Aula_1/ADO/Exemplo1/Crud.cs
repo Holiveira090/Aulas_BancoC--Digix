@@ -78,7 +78,7 @@ namespace Exemplo1
                 }
             }
         }
-
+        
         static void Main(string[] args)
         {
             Crud crud = new Crud();

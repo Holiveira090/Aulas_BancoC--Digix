@@ -116,3 +116,4 @@ C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aula_1\Entity\Exemplo1_Entity\ob
 C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aula_1\Entity\Exemplo1_Entity\obj\Debug\net8.0\Exemplo1_Entity.pdb
 C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aula_1\Entity\Exemplo1_Entity\obj\Debug\net8.0\Exemplo1_Entity.genruntimeconfig.cache
 C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aula_1\Entity\Exemplo1_Entity\obj\Debug\net8.0\ref\Exemplo1_Entity.dll
+C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aula_1\Entity\Exemplo1_Entity\obj\Debug\net8.0\Exemplo1_Entity.sourcelink.json

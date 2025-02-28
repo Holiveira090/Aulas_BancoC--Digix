@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\henriqueoliveira\\Desktop\\Aulas_BancoC#\\Aula_1\\ADO\\Exemplo1\\Exemplo1.csproj": {}
+    "C:\\Users\\henriqueoliveira\\Desktop\\Aulas_BancoC#\\Aula_1\\ADO\\Exemplo1\\exemplo1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\henriqueoliveira\\Desktop\\Aulas_BancoC#\\Aula_1\\ADO\\Exemplo1\\Exemplo1.csproj": {
+    "C:\\Users\\henriqueoliveira\\Desktop\\Aulas_BancoC#\\Aula_1\\ADO\\Exemplo1\\exemplo1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\henriqueoliveira\\Desktop\\Aulas_BancoC#\\Aula_1\\ADO\\Exemplo1\\Exemplo1.csproj",
-        "projectName": "Exemplo1",
-        "projectPath": "C:\\Users\\henriqueoliveira\\Desktop\\Aulas_BancoC#\\Aula_1\\ADO\\Exemplo1\\Exemplo1.csproj",
+        "projectUniqueName": "C:\\Users\\henriqueoliveira\\Desktop\\Aulas_BancoC#\\Aula_1\\ADO\\Exemplo1\\exemplo1.csproj",
+        "projectName": "exemplo1",
+        "projectPath": "C:\\Users\\henriqueoliveira\\Desktop\\Aulas_BancoC#\\Aula_1\\ADO\\Exemplo1\\exemplo1.csproj",
         "packagesPath": "C:\\Users\\henriqueoliveira\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\henriqueoliveira\\Desktop\\Aulas_BancoC#\\Aula_1\\ADO\\Exemplo1\\obj\\",
         "projectStyle": "PackageReference",
