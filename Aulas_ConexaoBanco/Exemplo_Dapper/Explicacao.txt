@@ -1,0 +1,3 @@
+Dapper
+O Dapper é um micro ORM que permite a conexão com bancos de dados relacionais.
+Ele é mais rápido que o Entity Framework, porém, menos robusto.

@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exemplo1", "C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aula_1\ADO\Exemplo1\exemplo1.csproj", "{F4FD7766-1CB7-43E2-8F6A-D11D61F2ADA4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exemplo1", "C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aulas_ConexaoBanco\ADO\Exemplo1\exemplo1.csproj", "{F4FD7766-1CB7-43E2-8F6A-D11D61F2ADA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exemplo1_Entity", "C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aula_1\Entity\Exemplo1_Entity\Exemplo1_Entity.csproj", "{34909894-0AD5-458D-AD94-3711933FB115}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exemplo1_Entity", "C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aulas_ConexaoBanco\Entity\Exemplo1_Entity\Exemplo1_Entity.csproj", "{34909894-0AD5-458D-AD94-3711933FB115}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exemplo1", "C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aula_1\Exemplo_Dapper\Exemplo1\Exemplo_Dapper.csproj", "{6ABED911-EF5D-405D-AADF-AA13FE84B01D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exemplo1", "C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aulas_ConexaoBanco\Exemplo_Dapper\Exemplo1\Exemplo_Dapper.csproj", "{6ABED911-EF5D-405D-AADF-AA13FE84B01D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex1", "C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aula_1\Entity\Ex1\Ex1.csproj", "{B7B86572-B4E5-4A4A-923B-590EE4BBCE48}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex1", "C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aulas_ConexaoBanco\Entity\Ex1\Ex1.csproj", "{B7B86572-B4E5-4A4A-923B-590EE4BBCE48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Windows_Form", "C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aulas_ConexaoBanco\Windows_Form\Windows_Form.csproj", "{3E25BDD0-C8ED-49E3-AA99-895BDD6386BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exemplo2_Console_Forms", "Aulas_ConexaoBanco\Windows_Form\Exemplo2_Console_Forms\Exemplo2_Console_Forms.csproj", "{3E557F26-3B8C-4B9F-A1FF-E06314D9A2C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,5 +44,18 @@ Global
 		{B7B86572-B4E5-4A4A-923B-590EE4BBCE48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7B86572-B4E5-4A4A-923B-590EE4BBCE48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7B86572-B4E5-4A4A-923B-590EE4BBCE48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E25BDD0-C8ED-49E3-AA99-895BDD6386BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E25BDD0-C8ED-49E3-AA99-895BDD6386BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E25BDD0-C8ED-49E3-AA99-895BDD6386BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E25BDD0-C8ED-49E3-AA99-895BDD6386BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E557F26-3B8C-4B9F-A1FF-E06314D9A2C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E557F26-3B8C-4B9F-A1FF-E06314D9A2C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E557F26-3B8C-4B9F-A1FF-E06314D9A2C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E557F26-3B8C-4B9F-A1FF-E06314D9A2C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3E25BDD0-C8ED-49E3-AA99-895BDD6386BD} = {C7844B0F-8E21-4480-9072-54B7EE83DF59}
+		{BCB83D77-D573-48C3-8FCF-EC97ECA10AB1} = {55B320BB-FCCF-4422-A4ED-E43930EBCA20}
+		{3E557F26-3B8C-4B9F-A1FF-E06314D9A2C6} = {BCB83D77-D573-48C3-8FCF-EC97ECA10AB1}
 	EndGlobalSection
 EndGlobal
