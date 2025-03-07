@@ -1,0 +1,15 @@
+C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aulas_ConexaoBanco\Windows_Form\Classe_Partial\bin\Debug\net8.0-windows\Classe_Partial.exe
+C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aulas_ConexaoBanco\Windows_Form\Classe_Partial\bin\Debug\net8.0-windows\Classe_Partial.deps.json
+C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aulas_ConexaoBanco\Windows_Form\Classe_Partial\bin\Debug\net8.0-windows\Classe_Partial.runtimeconfig.json
+C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aulas_ConexaoBanco\Windows_Form\Classe_Partial\bin\Debug\net8.0-windows\Classe_Partial.dll
+C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aulas_ConexaoBanco\Windows_Form\Classe_Partial\bin\Debug\net8.0-windows\Classe_Partial.pdb
+C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aulas_ConexaoBanco\Windows_Form\Classe_Partial\obj\Debug\net8.0-windows\Classe_Partial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aulas_ConexaoBanco\Windows_Form\Classe_Partial\obj\Debug\net8.0-windows\Classe_Partial.AssemblyInfoInputs.cache
+C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aulas_ConexaoBanco\Windows_Form\Classe_Partial\obj\Debug\net8.0-windows\Classe_Partial.AssemblyInfo.cs
+C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aulas_ConexaoBanco\Windows_Form\Classe_Partial\obj\Debug\net8.0-windows\Classe_Partial.csproj.CoreCompileInputs.cache
+C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aulas_ConexaoBanco\Windows_Form\Classe_Partial\obj\Debug\net8.0-windows\Classe_Partial.sourcelink.json
+C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aulas_ConexaoBanco\Windows_Form\Classe_Partial\obj\Debug\net8.0-windows\Classe_Partial.dll
+C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aulas_ConexaoBanco\Windows_Form\Classe_Partial\obj\Debug\net8.0-windows\refint\Classe_Partial.dll
+C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aulas_ConexaoBanco\Windows_Form\Classe_Partial\obj\Debug\net8.0-windows\Classe_Partial.pdb
+C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aulas_ConexaoBanco\Windows_Form\Classe_Partial\obj\Debug\net8.0-windows\Classe_Partial.genruntimeconfig.cache
+C:\Users\henriqueoliveira\Desktop\Aulas_BancoC#\Aulas_ConexaoBanco\Windows_Form\Classe_Partial\obj\Debug\net8.0-windows\ref\Classe_Partial.dll
