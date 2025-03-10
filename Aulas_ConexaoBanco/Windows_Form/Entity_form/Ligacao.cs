@@ -24,7 +24,7 @@ namespace Entity_form
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Usuario>().ToTable("usuario");
+            modelBuilder.Entity<Usuario>().ToTable("usuarios");
             modelBuilder.Entity<Maquina>().ToTable("maquina");
             modelBuilder.Entity<Software>().ToTable("software");
         }

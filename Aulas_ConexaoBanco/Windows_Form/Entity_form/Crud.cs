@@ -8,7 +8,7 @@ namespace Entity_form
     public class Crud
     {
         // Crud Usuarios
-        public void InserirUsuario(int id, string senha, string nome, int ramal, string especialidade)
+        public void InserirUsuario(int id, string nome, string senha, int ramal, string especialidade)
         {
             using (var db = new Ligacao())
             {
@@ -17,17 +17,22 @@ namespace Entity_form
             }
         }
 
-        public void ListarUsuarios()
+        public List<string> ListarUsuarios()
         {
+            List<string> listaUsuarios = new List<string>();
+
             using (var db = new Ligacao())
             {
-                var Usuarios = db.Usuarios.ToList();
-                foreach (var usuario in Usuarios)
+                var usuarios = db.Usuarios.ToList();
+                foreach (var usuario in usuarios)
                 {
-                    System.Console.WriteLine($"Id: {usuario.Id_usuario} Senha: {usuario.Password} Nome: {usuario.Nome_usuario} Ramal {usuario.Ramal} Especialidade {usuario.Especialidade}");
+                    listaUsuarios.Add($"Id: {usuario.Id_usuario} Senha: {usuario.Password} Nome: {usuario.Nome_usuario} Ramal: {usuario.Ramal} Especialidade: {usuario.Especialidade}");
                 }
             }
+
+            return listaUsuarios;
         }
+
 
         public void AtualizarUsuario(int id, string novoNome)
         {
@@ -76,17 +81,22 @@ namespace Entity_form
             }
         }
 
-        public void ListarMaquinas()
+        public List<string> ListarMaquinas()
         {
+            List<string> listaMaquinas = new List<string>();
+
             using (var db = new Ligacao())
             {
-                var Maquina = db.Maquina.ToList();
-                foreach (var maquinas in Maquina)
+                var maquinas = db.Maquina.ToList();
+                foreach (var maquina in maquinas)
                 {
-                    System.Console.WriteLine($"Id: {maquinas.Id_maquina} tipo: {maquinas.Tipo} velocidade: {maquinas.Velocidade} Harddisk: {maquinas.Harddisk} Placa de rede: {maquinas.Placa_rede} Memoria ram: {maquinas.Memoria_ram} Usuario: {maquinas.Fk_usuario}");
+                    listaMaquinas.Add($"Id: {maquina.Id_maquina} Tipo: {maquina.Tipo} Velocidade: {maquina.Velocidade} Harddisk: {maquina.Harddisk} Placa de rede: {maquina.Placa_rede} Memória RAM: {maquina.Memoria_ram} Usuário: {maquina.Fk_usuario}");
                 }
             }
+
+            return listaMaquinas;
         }
+
 
         public void AtualizarMaquina(int id, string tipo)
         {
@@ -135,17 +145,22 @@ namespace Entity_form
             }
         }
 
-        public void ListarSoftwares()
+        public List<string> ListarSoftwares()
         {
+            List<string> listaSoftwares = new List<string>();
+
             using (var db = new Ligacao())
             {
-                var Software = db.Software.ToList();
-                foreach (var softwares in Software)
+                var softwares = db.Software.ToList();
+                foreach (var software in softwares)
                 {
-                    System.Console.WriteLine($"Id: {softwares.Id_software} Produto: {softwares.Produto} Harddisk {softwares.Harddisk} Memoria_ram: {softwares.Memoria_ram} Maquina {softwares.Fk_maquina}");
+                    listaSoftwares.Add($"Id: {software.Id_software} Produto: {software.Produto} Harddisk: {software.Harddisk} Memória RAM: {software.Memoria_ram} Máquina: {software.Fk_maquina}");
                 }
             }
+
+            return listaSoftwares;
         }
+
 
         public void AtualizarSoftware(int id, string produto)
         {
